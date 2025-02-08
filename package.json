@@ -22,5 +22,10 @@
     "glob": "^10.2.2",
     "chalk": "^4.1.2",
     "commander": "^11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaheshPulivarthi18/env.doc.generator"
   }
+
 }
