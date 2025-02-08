@@ -1,0 +1,39 @@
+{
+  "name": "@maheshp/env-doc-gen",
+  "version": "1.0.0",
+  "description": "A powerful documentation generator for environment variables with usage tracking and validation",
+  "main": "src/index.js",
+  "bin": {
+    "env-doc-gen": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:docs": "node examples/test.js"
+  },
+  "keywords": [
+    "env",
+    "documentation",
+    "generator",
+    "environment",
+    "variables",
+    "dotenv",
+    "env-doc",
+    "docs",
+    "markdown"
+  ],
+  "author": "Mahesh Pulivarthi",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "dotenv": "^16.0.0",
+    "glob": "^8.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/env-doc-gen"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/env-doc-gen/issues"
+  },
+  "homepage": "https://github.com/yourusername/env-doc-gen#readme"
+} 
